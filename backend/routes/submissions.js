@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Submission = require('../models/Submission');
+const Submission = require("../models/Submission")
 const { protect } = require('../middleware/auth');
 
 // POST /api/submissions — public, no auth needed

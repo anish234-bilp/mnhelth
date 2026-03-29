@@ -2,6 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();
+const submissionroutes = require("./models/Submission")
+const authroutes = require("./models/owner")
 
 const app = express();
 
@@ -12,8 +14,8 @@ app.use(cors({
 app.use(express.json());
 
 // Routes
-app.use('/api/submissions', require('./routes/submissions'));
-app.use('/api/auth', require('./routes/auth'));
+app.use('/api/submissions',submissionroutes);
+app.use('/api/auth',authroutes);
 
 // Health check
 app.get('/api/health', (req, res) => res.json({ status: 'OK' }));
