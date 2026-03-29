@@ -785,7 +785,7 @@ export default function MHelth() {
             document.getElementById("pricing").scrollIntoView({ behavior: "smooth" })
             navigate("/form")
           }}>
-            Book Now
+          connect on mhealt.supoort@gmail.com
           </button>
           <a href="https://wa.me/9046673200?text=Hi%2C%20I%20want%20to%20book%20a%20session%20on%20MHelth" target="_blank" rel="noopener noreferrer">
             <button className="btn-wa">
