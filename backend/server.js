@@ -2,8 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();
-const submissionroutes = require("./models/Submission")
-const authroutes = require("./models/owner")
+const submissionroutes = require("./routes/submissions")
+const authroutes = require("./routes/auth")
 
 const app = express();
 

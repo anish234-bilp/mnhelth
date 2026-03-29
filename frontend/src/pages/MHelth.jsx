@@ -604,7 +604,7 @@ export default function MHelth() {
         {/* <div className="nav-logo">MHelth</div> */}
         <img src="WhatsApp Image 2026-03-29 at 2.48.19 PM.jpeg" alt="" className="nav-logo" style={{ width: "50px" }} />
         <button className="nav-cta" onClick={() => {
-          document.getElementById("pricing").scrollIntoView({ behavior: "smooth" })
+       
           navigate("/form")
 
         }}>
@@ -639,7 +639,7 @@ export default function MHelth() {
 
         <div className="hero-actions">
           <button className="btn-primary" onClick={() => {
-            document.getElementById("pricing").scrollIntoView({ behavior: "smooth" })
+            
             navigate("/form")
           }}>
             Book Your First Session ✨
@@ -782,8 +782,8 @@ export default function MHelth() {
         <p>You don't have to figure it all out alone. Help is one click away.</p>
         <div className="final-cta-actions">
           <button className="btn-cta-main" onClick={() => {
-            document.getElementById("pricing").scrollIntoView({ behavior: "smooth" })
-            navigate("/form")
+          
+            
           }}>
           connect on mhealt.supoort@gmail.com
           </button>
@@ -806,7 +806,9 @@ export default function MHelth() {
 
       {/* STICKY MOBILE CTA */}
       <div className="sticky-cta">
-        <button onClick={() => document.getElementById("pricing").scrollIntoView({ behavior: "smooth" })}>
+        <button onClick={() => {
+          navigate("/form")
+        }}>
           Book First Session
         </button>
       </div>
