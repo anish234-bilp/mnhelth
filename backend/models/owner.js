@@ -28,5 +28,5 @@ const ownerSchema = new mongoose.Schema({
 ownerSchema.methods.comparePassword = async function (candidatePassword) {
   return bcrypt.compare(candidatePassword, this.password);
 };
-
-module.exports = mongoose.model('Owner', ownerSchema);
+const Owner = mongoose.model('Owner', ownerSchema);
+module.exports = Owner;
