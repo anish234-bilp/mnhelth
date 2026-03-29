@@ -602,7 +602,7 @@ export default function MHelth() {
       {/* NAV */}
       <nav className={scrolled ? "scrolled" : ""}>
         {/* <div className="nav-logo">MHelth</div> */}
-        <img src="public\WhatsApp Image 2026-03-29 at 2.48.19 PM.jpeg" alt="" className="nav-logo" style={{ width: "50px" }} />
+        <img src="WhatsApp Image 2026-03-29 at 2.48.19 PM.jpeg" alt="" className="nav-logo" style={{ width: "50px" }} />
         <button className="nav-cta" onClick={() => {
           document.getElementById("pricing").scrollIntoView({ behavior: "smooth" })
           navigate("/form")
@@ -631,7 +631,7 @@ export default function MHelth() {
           </div>
 
           <div>
-            <img src="public\WhatsApp Image 2026-03-29 at 2.57.43 PM.jpeg" alt="" style={{width:"500px"}} />
+            <img src="WhatsApp Image 2026-03-29 at 2.57.43 PM.jpeg" alt="" style={{width:"500px"}} />
           </div>
         </div>
 
